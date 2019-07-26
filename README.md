@@ -15,8 +15,14 @@ Has dense housing development accompanied transit investments in metro Boston? W
 ### Statewide tax assessors parcel maps 
 Curated and distributed by MassGIS (except for city of Boston, which will need to be downloaded separately). These maps provide parcel-level information on use code, number of units, and year built, among other things. This will allow me to see what kinds of buildings, how many units, and when they were built. I will be focusing this level of analysis on the parcels that are within a half mile of a transit station. MassGIS has provided some standardization of land use codes across towns, because every town is able to use and modify whatever use codes they want. This standardization will allow me to use the same selection methodology across geographic boundaries. 
 
+MassGIS, Standardized “Level 3” Assessors’ Parcels. 
+https://docs.digital.mass.gov/dataset/massgis-data-standardized-assessors-parcels?_ga=2.163652726.894669162.1534181086-154496739.1511879849
+
 ### Commuter rail and MBTA layers
 Also maintained by MassGIS. These layers have line and point data, and I will be focusing on the point data (stations) to create the buffer used to determine station proximity. 
+
+MassGIS, Trains (and MBTA Commuter Rail). 
+https://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/trains.html
 
 # Methods and walkthrough
 Boston parcels were obtained from the City of Boston, while the rest of the state is compiled and somewhat standardized by MassGIS. The following map shows how detailed these maps are. The data set is very, very large and takes a fair amount of time to render. One of the first steps in my process, therefore, is to make a selection of these parcels relative to the commuter rail stops, which will reduce considerably the number of parcels needed for the analysis.
