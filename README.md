@@ -1,3 +1,5 @@
+<img src="images/EastWeymouthLayout.jpg"/>
+
 # Overview
 
 Massachusetts has made significant investments in transit, particularly in commuter rail development. In order to maximize ridership and get the most use out of the commuter rail system, it is important to create dense housing opportunities around commuter rail stations. However, in many cities and towns across the Commonwealth, there is much resistance to multifamily housing, and in a number of towns with good commuter rail access, little or no housing has been built around these transit investments. 
@@ -9,6 +11,12 @@ So, in many cases, additional housing development, and specifically denser multi
 From a smart growth policy perspective, the new housing production that would help alleviate some of these supply and equity issues should occur in areas that meet sustainability and efficiency goals. However, there has been little work to try to measure how well the Commonwealth has made use of its transit infrastructure to promote denser, transit-oriented housing development. This project will aim to create a methodology for doing that.
 
 Has dense housing development accompanied transit investments in metro Boston? Where has transit-oriented development taken place, and where are opportunities for more work and development? 
+
+# In this repo
+- 'FinalMapping2.mxd' - ArcGIS file that maps clean, standardized assessors parcels for use in station area visualization
+- 'Parcels within commuter rail buffers.mxd' - ArcGIS file that maps which parcels are within 0.25 miles of a commuter rail station
+- 'SouthShoreUnitTypesAnalysis.R' - An R script that produces charts showing residential land use types around various commuter rail stations on the MBTA Greenbush line.
+- 'finalTODextractcleanupforcharts.R' - R script that cleans up the parcels that are within 0.25 miles of commuter rail stations - standardizes use codes.
 
 # Data Sources
 
@@ -62,3 +70,10 @@ It is clear that there is significant variation in the built environment across 
 It is also clear that the neighborhoods surrounding many stations have dedicated much of that land to single family housing. This seems to be an enormously inefficient use of these transit-rich locations. It would benefit the commuter rail system as well as the state if these transit-rich locations were to develop housing at a higher density and volume. Multifamily housing, and particularly multifamily rental housing, is in short supply in the suburbs, which can have the effect of excluding lower-income households and those seeking dense, walkable locations. By creating more diverse places in the suburbs around transit infrastructure, the Commonwealth could reduce spatial segregation and create town centers that alleviate some of the pressures in the housing market. 
 This analysis could provide an initial step in analyzing how the state plans for housing in relation to existing transit infrastructure. The spatial representations made in this paper showing the underutilization of transit-adjacent parcels have the potential to make this lack of coordinated planning apparent. When applied to the whole system, the methodology used here highlights the weak points in the system, and where the state could concentrate efforts to broaden housing opportunities in relation to existing commuter rail investments.
 
+# Visualizations
+<img src="images/EastWeymouthLayout.jpg"/>
+<img src="images/WestHinghamLayout.jpg"/>
+<img src="images/NantasketJunctionLayout.jpg"/>
+<img src="images/Cohasset.jpg"/>
+<img src="images/NorthScituate.jpg"/>
+<img src="images/GreenbushLayout.jpg"/>
